@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Employee Time Keeping</title>
+  <meta name="description" content="Time Entry Project">
+  <meta name="author" content="Jaizon Lubaton">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+
+<div id='container'>
+		<div class='row' id='row-title'>
+			<h2>Employee Time Keeping</h2>
+		</div>
+		<div class="row" id='row1'>
+			<div id='leftSide'>
+
+				<div id="clock"></div>
+				<hr>
+				<div class='fieldDiv'>
+					<label for='empNo'>Employee ID</label>
+					<input type='text' name='empNo' id="empNo" placeholder='---' maxlength='3' tabindex='1'>
+
+				</div>
+				<div class='fieldDiv'>
+					<label for='password'>Password</label>
+					<input type='password' name='passwrod' id="password" placeholder='---' maxlength='3' class='entryField' tabindex='2'>
+				</div>
+				<div id='errorMsg'>
+						Error Mesage: Invalid Entry.
+
+				</div>
+				<div class="btnDiv">
+					<button class="btn" id="inBtn" tabindex='3'>IN</button>
+					<button class="btn" id="outBtn" tabindex='4'>OUT</button>
+				</div>
+			</div>
+			<style>
+				#activityTable {
+					width: 100%;
+				}
+				#activityTable td {
+					height: 1.5rem;
+				}
+			</style>
+			<div id='rightSide'>
+					<div class='hist_title'><h2>Activity Log </h2> <h2 id='currentDate'></h2></div>
+					<div id="activityTableDiv">
+
+					</div>
+			</div>
+		</div>
+
+		<div class='row' id='row2'>
+			 <h3>Test Employee Data</h3>
+			 <div id='employeeTableDiv'>
+
+			 </div>
+		</div>
+
+</div>
+  <script src="js/classes/data/Employee.js"></script>
+  <script src="js/classes/data/Activity.js"></script>
+  <script src="js/classes/hash/EmployeeHash.js"></script>
+  <script src="js/classes/element/Element.js"></script>
+  <script src="js/classes/util/DateUtil.js"></script>
+  <script src="js/classes/util/TimeUtil.js"></script>
+  <script src="js/classes/util/ButtonUtil.js"></script>
+  <script src="js/classes/util/TestDataUtil.js"></script>
+  <script src="js/classes/logic/BusinessLogic.js"></script>
+
+  <script src="js/classes/tables/EmployeeTable.js"></script>
+  <script src="js/classes/tables/ActivityTable.js"></script>
+
+  <script src="js/events/01-globalFunctions.js"></script>
+  <script src="js/events/04-onloadEvent.js"></script>
+  <script src="js/events/05-fieldEvents.js"></script>
+  <script src="js/events/06-buttonEvents.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

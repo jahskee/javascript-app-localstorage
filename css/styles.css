@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto");
+/* line 2, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+body {
+  background: #474647;
+  box-sizing: border-box;
+  color: #2a2a2a;
+}
+
+/* line 8, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 12, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgray;
+  width: 1000px;
+  margin: auto;
+  font-family: Roboto;
+  padding: 5px;
+  background: #ebebee;
+  margin-top: 20px;
+  -webkit-box-shadow: 3px 10px 54px -2px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 3px 10px 54px -2px rgba(0, 0, 0, 0.56);
+  box-shadow: 3px 10px 54px -2px rgba(0, 0, 0, 0.56);
+}
+
+/* line 30, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* line 37, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#clock {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* line 42, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+.fieldDiv {
+  margin-top: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* line 48, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+.entryField, #empNo {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 3rem;
+  width: 200px;
+}
+
+/* line 58, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+.fieldDiv label {
+  margin-bottom: 10px;
+}
+
+/* line 62, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#leftSide {
+  border: 1px solid black;
+  display: inline-block;
+  width: 40%;
+  padding: 10px;
+}
+
+/* line 70, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#rightSide {
+  border: 1px solid black;
+  display: inline-block;
+  width: 54%;
+  padding: 10px;
+}
+
+/* line 77, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 5px;
+}
+
+/* line 85, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+label {
+  font-size: 1.5rem;
+}
+
+/* line 89, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+.btnDiv {
+  text-align: center;
+}
+
+/* line 93, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+.btn {
+  height: 50px;
+  width: 100px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* line 101, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#errorMsg {
+  color: red;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 108, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+.row {
+  width: 100%;
+  margin: 4px;
+}
+
+/* line 114, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#row1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 127, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#msgModalEmpNo {
+  display: block;
+  position: absolute;
+  background: brown;
+  width: 100px;
+  height: 50px;
+}
+
+/* line 135, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#history {
+  width: 99%;
+}
+
+/* line 139, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#rightSide h2 {
+  font-size: 1.2rem;
+}
+
+/* line 143, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#rightSide h2, #rightSide table {
+  margin: 0px;
+}
+
+/* line 147, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#activityTableDiv tr:first-child td {
+  background: #682323;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 154, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#leftSide, #rightSide {
+  padding-bottom: 40px;
+}
+
+/* line 158, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#row-title {
+  text-align: center;
+}
+
+/* line 162, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#row-title h2 {
+  margin: 5px;
+}
+
+/* line 166, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#employeeTable {
+  padding: 15px;
+}
+
+/* line 168, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#employeeTable tr:first-child td {
+  background: #682323;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 177, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+.hist_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 182, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#currentDate {
+  padding-right: 10px;
+}
+
+/* line 186, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#employeeTableDiv {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* line 191, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#employeeTableDiv td {
+  padding: 5px 20px;
+  text-align: center;
+}
+
+/* line 199, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#employeeTable td,
+#activityTable td {
+  text-align: center;
+}
+
+/* line 202, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#employeeTable tr:nth-child(even),
+#activityTable tr:nth-child(even) {
+  background: #d4d4d4;
+}
+
+/* line 210, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#activityTable tr:nth-child(2) {
+  background: #b6c8b6;
+  font-weight: bold;
+}
+
+/* line 217, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+#row2 h3 {
+  text-align: center;
+  margin: 5px;
+}
+
+/* line 222, /home/releasemgr/Desktop/01-CSCIE3/Graduate1/scss/styles.scss */
+table {
+  border: none;
+}
+
+/*# sourceMappingURL=../css/styles.map */
